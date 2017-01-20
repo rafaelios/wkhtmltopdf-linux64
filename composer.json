@@ -1,0 +1,29 @@
+{
+  "name": "rafaelios/wkhtmltopdf-linux64",
+  "description": "Convert html to pdf using webkit (qtwebkit). Static linked linux binary for 64 bit systems.",
+  "keywords": [
+    "pdf",
+    "wkhtmltopdf",
+    "convert",
+    "binary"
+  ],
+  "license": "LGPL Version 3",
+  "homepage": "http://wkhtmltopdf.org/",
+  "authors": [
+    {
+      "name": "Rafael"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/rafaelios/wkhtmltopdf-linux64/issues?state=open"
+  },
+  "minimum-stability": "stable",
+  "bin": [
+    "bin/wkhtmltopdf-linux64"
+  ],
+  "require": {
+  },
+  "suggest": {
+    "rafaelios/wkhtmltopdf-win64": "*"
+  }
+}
